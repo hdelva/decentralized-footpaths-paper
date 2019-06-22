@@ -1,0 +1,6 @@
+## Conclusion and future work
+{:#conclusion}
+
+This paper introduced a decentralized publishing method for transit footpaths based on point set triangulations. We have shown that different actors can each add information to the footpath graph, splitting the necessary work between them. The amount of paths scales linearly with the amount of public transit stops, and every stop is reachable from every other. This last property could proof useful in its own right, as it allows for unrestricted walking unlike most other methods. However, this comes at the cost of precision. The walking distance between any pair of stops is overestimated by 20% on average.
+
+It still remains to be seen whether or not this overestimation poses a problem in practice. Different kinds of point set triangulations may be tried instead of the Delaunay triangulation to improve the approximations, or several triangulations may even be combined to create a more complete graph. Alternatively, combining the haversine distance and the currently approximated distance seems promising as well if underestimating the actual distance is not an issue.
