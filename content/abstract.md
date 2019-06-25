@@ -13,4 +13,4 @@ This guarantees that all stops are reachable from one another, while the number 
 <!-- Conclusion -->
 Our results show that our approach is a middle-ground between completeness and practicality. It consistently overestimates the walking distances, but this seems workable since underestimating the time needed to catch a connection is arguably better than recommending an impossible journey.
 <!-- Perspectives -->
-The estimates could still be improved by combining the haversine distance with our approxomations. Alternatively, different triangulations could be combined to create a more complete graph.
+The estimates could still be improved by combining the haversine distance with our approximations. Alternatively, different triangulations could be combined to create a more complete graph.
