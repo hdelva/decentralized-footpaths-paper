@@ -8,7 +8,11 @@ ex:d1e8a6eaee8dfe39d7031fcc08462cb0
     ex:source               nmbs:008874567 ;
     ex:destination          nmbs:008874583 ;
     ex:distance             "3160"^^unit:M ;
-    prov:createdBy          <https://openplanner.team/> ;
-    prov:usedData           <http://irail.be/stations/NMBS/> ;
-    prov:usedData           <https://tiles.openplanner.team/planet/> ;
-    prov:generatedAtTime    "2019-04-29T14:45:53"^^xsd:dateTime .
+    prov:qualifiedGeneration [
+       prov:used           <http://irail.be/stations/NMBS/> ;
+       prov:used           <https://tiles.openplanner.team/planet/> ;
+       prov:atTime         "2019-04-29T14:45:53"^^xsd:dateTime .
+    ]      
+
+    <https://openplanner.team/> ;
+    

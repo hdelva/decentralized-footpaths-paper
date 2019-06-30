@@ -19,23 +19,4 @@ We use a Delaunay triangulation of the public transit stop locations. The triang
 
 <!-- ### Merging -->
 
-The paths between stops of a single operator can be calculated independently from the rest. Combining the graphs of two operators is done by comparing their individual triangulations to the triangulation of their combined stops – and computing the missing footpaths. This process is illustrated in Fig. 1 where the graph of a city's public transit network is merged with the one from the region around it. The combined graph is the union of each operators' graph with the additional edges that connect the two graphs. Operators typically have their own service area, which means that the vast majority of paths will be between stops of the same operator. Thus making it possible for anyone to combine several operators' graphs with minimal work. And just as important: the results can be shared and reused, which stands in stark contrast to the conventional approaches. The paths can be published similar to the Routable Tiles dataset so that sharing them does not come at a significant extra cost. The paths can be published similar to the Routable Tiles dataset so that sharing them doesn't come at a significant extra cost.
-
-
-<!--
-### Publishing on the web
-
-<figure id="example snippet" class="listing">
-````/code/example.ttl````
-<figcaption markdown="block">
-The definition of a single footpath
-</figcaption>
-</figure>
-
-It is easy enough to share data on the web, but special care is needed to ensure that the data can actually be used and understood by anyone. 
-Listing 1 contains a minimal description of a footpath between two Belgian railway stations. 
-It describes the essential information: the stops that are connected by this path and the distance between them.
-Data consumers should be able to verify this information though, so we must also describe who did the calculation, when they did it, and which datasets they used.
-In this paper we do not go into more detail on how the footpath graphs themselves should be published. 
-We propose an approach similar to the Routable Tiles dataset: fragmented geospatially and with hypermedia controls interconnecting the fragments. 
--->
+The paths between stops of a single operator can be calculated independently from the rest. Combining the graphs of two operators is done by comparing their individual triangulations to the triangulation of their combined stops – and computing the missing footpaths. This process is illustrated in Fig. 1 where the graph of a city's public transit network is merged with the one from the region around it. The combined graph is the union of each operators' graph with the additional edges that connect the two graphs. Operators typically have their own service area, which means that the vast majority of paths will be between stops of the same operator. Thus making it possible for anyone to combine several operators' graphs with minimal work. And just as important: the results can be shared and reused, which stands in stark contrast to the conventional approaches. The paths can be published similar to the Routable Tiles dataset so that sharing them does not come at a significant extra cost.
