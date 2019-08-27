@@ -1,7 +1,12 @@
 ## Introduction
 {:#introduction}
 
-Fueled by the need for more sustainable transportation, users can pick between more forms of transport than ever before – and they expect that route planners can combine them to find the ideal journey. Such route planners integrate various kinds of data such as road networks and schedule-based public transit. In this paper we focus on the link between the two, specifically how to walk between stops.
+Fueled by the need for more sustainable transportation, users can pick between more forms of transport than ever before – and they expect that route planners can combine them to find the ideal journey. Such route planners integrate various kinds of data such as road networks and schedule-based public transit. 
+<span class="placeholder printonly">
+<span style="display: block; height: 1em;"></span>
+<!-- This is a dummy placeholder for the LNCS first page footnote -->
+</span>
+In this paper we focus on the link between the two, specifically how to walk between stops. 
 
 Computing these paths dynamically is often [too slow in practice](cite:cites delling2013computing, wagner2017public) while computing them before-hand quickly becomes [prohibitive in practice](cite:cites transfer-patterns, delling2014round, dibbelt2018connection). A single regional bus service with 40,000 stops would already yield 1.6 billion pairs of stops. These scaling issues are often avoided by only evaluating algorithms on [small unconnected footpath graphs](cite:cites wagner2017public). However, this restricts the amount of walking in a journey and has a [significant impact on travel times](cite:cites wagner2017public). On top of that, determining which stops belong to the same graph ultimately relies on a closed-world assumption; which makes it impractical to add additional public transit services.
 
