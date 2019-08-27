@@ -11,7 +11,7 @@ header {
 .firstpagefooter {
   position: absolute;
   right: 0;
-  bottom: 53px;
+  bottom: 70px;
   left: 0;
 }
 
@@ -21,4 +21,13 @@ header {
   display: block;
   line-height:1.1em;
   font-size:0.8em;
+}
+
+#triangulation {
+	height: 100px;
+	margin-bottom: 430px;
+
+	figcaption {
+		margin-bottom: 100px;
+	}
 }

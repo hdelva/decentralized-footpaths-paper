@@ -18,6 +18,7 @@ The estimates could still be improved by combining the great-circle distance wit
 
 <span class="printonly firstpagefooter">
 <span class="footnotecopyright">
-Copyright © 2019 for this paper by its authors. Use permitted under Creative Commons License Attribution 4.0 International (CC BY 4.0).
+Copyright © 2019 for this paper by its authors. 
+Use permitted under Creative Commons License Attribution 4.0 International (CC BY 4.0).
 </span>
 </span>

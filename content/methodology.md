@@ -17,6 +17,11 @@
   </figcaption>
 </figure>
 
+<span class="placeholder printonly">
+<span style="display: block; height: 4em;"></span>
+<!-- This is a dummy placeholder for the LNCS first page footnote -->
+</span>
+
 <!-- ### Point Set Triangulation -->
 
 We use a Delaunay triangulation of the public transit stop locations to approximate the full footpath graph, based on the insights from the related work section.
